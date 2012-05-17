@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76F8C0486A9BA00D96B5E /* locationcli.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E9D0290929804C91782 /* locationcli.1 */; };
+		CF11FDAA15650AC90054BAE1 /* ILGeoNamesLookup.m in Sources */ = {isa = PBXBuildFile; fileRef = CF11FD8315650AC90054BAE1 /* ILGeoNamesLookup.m */; };
+		CF11FDCC15650FCD0054BAE1 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CF11FDCA15650FCD0054BAE1 /* JSONKit.m */; };
+		CF1C7B8A12C9461300C916AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1C7B8912C9461300C916AE /* main.m */; };
+		CF1C7D4312C94C0800C916AE /* LocationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1C7D4212C94C0800C916AE /* LocationDelegate.m */; };
+		CF1C7F0112C957F100C916AE /* Corelocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1C7F0012C957F100C916AE /* Corelocation.framework */; };
+		CF1C7F0712C9582900C916AE /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1C7F0612C9582900C916AE /* CoreFoundation.framework */; };
+		CF1C7F0B12C9584700C916AE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1C7F0A12C9584700C916AE /* CoreData.framework */; };
+		CF1C7F1912C9588500C916AE /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1C7F1812C9588500C916AE /* ApplicationServices.framework */; };
+		CF1C7F1E12C958A100C916AE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1C7F1D12C958A100C916AE /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		CFB416D5140FBF72004E712F /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = text.plist;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# builtin-copyPlist\n";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F8B0486A9BA00D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F8C0486A9BA00D96B5E /* locationcli.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8DD76F8E0486A9BA00D96B5E /* locationcli */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = locationcli; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6859E9D0290929804C91782 /* locationcli.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = locationcli.1; sourceTree = "<group>"; };
+		CF11FD7F15650AC90054BAE1 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		CF11FD8115650AC90054BAE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ILGeoNames.strings; sourceTree = "<group>"; };
+		CF11FD8215650AC90054BAE1 /* ILGeoNamesLookup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILGeoNamesLookup.h; sourceTree = "<group>"; };
+		CF11FD8315650AC90054BAE1 /* ILGeoNamesLookup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILGeoNamesLookup.m; sourceTree = "<group>"; };
+		CF11FD8715650AC90054BAE1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CF11FD8815650AC90054BAE1 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.mdown; sourceTree = "<group>"; };
+		CF11FDC815650FCD0054BAE1 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.md; sourceTree = "<group>"; };
+		CF11FDC915650FCD0054BAE1 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		CF11FDCA15650FCD0054BAE1 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		CF11FDCB15650FCD0054BAE1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		CF1C7B8812C9461300C916AE /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		CF1C7B8912C9461300C916AE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF1C7D4112C94C0800C916AE /* LocationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDelegate.h; sourceTree = "<group>"; };
+		CF1C7D4212C94C0800C916AE /* LocationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDelegate.m; sourceTree = "<group>"; };
+		CF1C7F0012C957F100C916AE /* Corelocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Corelocation.framework; path = System/Library/Frameworks/Corelocation.framework; sourceTree = SDKROOT; };
+		CF1C7F0612C9582900C916AE /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		CF1C7F0A12C9584700C916AE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CF1C7F1812C9588500C916AE /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		CF1C7F1D12C958A100C916AE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CF3B80BC141A17110082C2C3 /* info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F880486A9BA00D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1C7F0112C957F100C916AE /* Corelocation.framework in Frameworks */,
+				CF1C7F0712C9582900C916AE /* CoreFoundation.framework in Frameworks */,
+				CF1C7F0B12C9584700C916AE /* CoreData.framework in Frameworks */,
+				CF1C7F1912C9588500C916AE /* ApplicationServices.framework in Frameworks */,
+				CF1C7F1E12C958A100C916AE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* locationcli */ = {
+			isa = PBXGroup;
+			children = (
+				CF1C7EFF12C957D600C916AE /* Frameworks */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E9C0290928B04C91782 /* Documentation */,
+				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
+				1A8B4A8EFE9D542A11CA2CBB /* Products */,
+			);
+			name = locationcli;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CF1C7B8812C9461300C916AE /* main.h */,
+				CF1C7B8912C9461300C916AE /* main.m */,
+				CF1C7D4112C94C0800C916AE /* LocationDelegate.h */,
+				CF1C7D4212C94C0800C916AE /* LocationDelegate.m */,
+				CF3B80BC141A17110082C2C3 /* info.plist */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				CF11FDC715650FCD0054BAE1 /* JSONKit */,
+				CF11FD7E15650AC90054BAE1 /* ILGeoNames */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		1A8B4A8EFE9D542A11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F8E0486A9BA00D96B5E /* locationcli */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859E9C0290928B04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E9D0290929804C91782 /* locationcli.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		CF11FD7E15650AC90054BAE1 /* ILGeoNames */ = {
+			isa = PBXGroup;
+			children = (
+				CF11FD7F15650AC90054BAE1 /* .gitignore */,
+				CF11FD8015650AC90054BAE1 /* ILGeoNames.strings */,
+				CF11FD8215650AC90054BAE1 /* ILGeoNamesLookup.h */,
+				CF11FD8315650AC90054BAE1 /* ILGeoNamesLookup.m */,
+				CF11FD8715650AC90054BAE1 /* LICENSE */,
+				CF11FD8815650AC90054BAE1 /* README.mdown */,
+			);
+			path = ILGeoNames;
+			sourceTree = "<group>";
+		};
+		CF11FDC715650FCD0054BAE1 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				CF11FDC815650FCD0054BAE1 /* CHANGELOG.md */,
+				CF11FDC915650FCD0054BAE1 /* JSONKit.h */,
+				CF11FDCA15650FCD0054BAE1 /* JSONKit.m */,
+				CF11FDCB15650FCD0054BAE1 /* README.md */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		CF1C7EFF12C957D600C916AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF1C7F0612C9582900C916AE /* CoreFoundation.framework */,
+				CF1C7F1812C9588500C916AE /* ApplicationServices.framework */,
+				CF1C7F1D12C958A100C916AE /* Cocoa.framework */,
+				CF1C7F0012C957F100C916AE /* Corelocation.framework */,
+				CF1C7F0A12C9584700C916AE /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F840486A9BA00D96B5E /* locationcli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB925E08733DCF0010E9CD /* Build configuration list for PBXNativeTarget "locationcli" */;
+			buildPhases = (
+				8DD76F860486A9BA00D96B5E /* Sources */,
+				8DD76F880486A9BA00D96B5E /* Frameworks */,
+				8DD76F8B0486A9BA00D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+				CFB416D5140FBF72004E712F /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = locationcli;
+			productInstallPath = "$(HOME)/bin";
+			productName = locationcli;
+			productReference = 8DD76F8E0486A9BA00D96B5E /* locationcli */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 1DEB926208733DCF0010E9CD /* Build configuration list for PBXProject "locationcli" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* locationcli */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F840486A9BA00D96B5E /* locationcli */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F860486A9BA00D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1C7B8A12C9461300C916AE /* main.m in Sources */,
+				CF1C7D4312C94C0800C916AE /* LocationDelegate.m in Sources */,
+				CF11FDAA15650AC90054BAE1 /* ILGeoNamesLookup.m in Sources */,
+				CF11FDCC15650FCD0054BAE1 /* JSONKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF11FD8015650AC90054BAE1 /* ILGeoNames.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF11FD8115650AC90054BAE1 /* en */,
+			);
+			name = ILGeoNames.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB925F08733DCF0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 1;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = locationcli;
+			};
+			name = Debug;
+		};
+		1DEB926008733DCF0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 1;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = locationcli;
+			};
+			name = Release;
+		};
+		1DEB926308733DCF0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = locationcli;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1DEB926408733DCF0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = locationcli;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB925E08733DCF0010E9CD /* Build configuration list for PBXNativeTarget "locationcli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB925F08733DCF0010E9CD /* Debug */,
+				1DEB926008733DCF0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB926208733DCF0010E9CD /* Build configuration list for PBXProject "locationcli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB926308733DCF0010E9CD /* Debug */,
+				1DEB926408733DCF0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
